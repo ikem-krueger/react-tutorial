@@ -7,5 +7,3 @@ updates:
     commit-message:
       prefix: "fix"
     auto-merge: true
-    ignore:
-      - dependency-name: "example"
