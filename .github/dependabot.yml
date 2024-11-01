@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Change this to your package manager (e.g., "pip", "maven", "rubygems", etc.)
+    directory: "/" # Location of your package manifests
+    schedule:
+      interval: "weekly" # How often to check for updates
+    commit-message:
+      prefix: "fix" # Prefix for commit messages
+    auto-merge: true # Enables automatic merging
+    ignore:
+      - dependency-name: "example" # Optional: specify dependencies to ignore
